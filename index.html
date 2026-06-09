@@ -10,7 +10,7 @@
     <div class="bg-slate-600 p-6 rounded-lg shadow-lg mt-2 flex flex-col gap-4 max-w-full w-full sm:max-w-sm  sm:p-6 transition-all   ">
 
             <h1 class="text-2xl font-bold">Drey Calculator</h1>
-            <p>Enter a mathematical expression to evaluate:</p>
+            <p>Enter a mathematical expression to evaluate <br> Clear Screen before Use:</p>
 
             <div id="textarea">
                 <input type="text" id="screen" placeholder="0" readonly class=" text-right  bg-slate-800 p-2 rounded-3xl  w-80 border-slate-700 shadow-inner ">
@@ -18,7 +18,7 @@
 
       <div class="grid grid-cols-4 gap-3 mt-4 text-right  ">
             
-            <button onclick="clearScreen()" class="col-span-2 bg-rose-600 hover:bg-rose-500 text-white font-bold p-4 rounded-2xl cursor-pointer shadow-md transition-all active:scale-95 text-xl">C</button>
+            <button onclick="clearScreen()" class="col-span-2 bg-rose-600 hover:bg-rose-500 text-white font-bold p-4 rounded-2xl cursor-pointer shadow-md transition-all active:scale-95 text-xl">Clear</button>
             <button onclick="appendValue('/')" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold p-4 rounded-2xl cursor-pointer shadow-md transition-all active:scale-95 text-xl">/</button>
             <button onclick="appendValue('*')" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold p-4 rounded-2xl cursor-pointer shadow-md transition-all active:scale-95 text-xl">×</button>
 

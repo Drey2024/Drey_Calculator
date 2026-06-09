@@ -19,7 +19,7 @@ function calculateResult() {
     }
 
     catch (error) {
-        calculatorScreen.value = 'invalid expression';
+        calculatorScreen.value = 'error';
        
         
     }
